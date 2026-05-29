@@ -67,14 +67,14 @@ green-chemistry-dashboard/
 ├── data/
      └── ord_search_results.pb
 ├── images/
-     └── logo.png
+     └── icon.png
 ├── app.py                    # Main Streamlit application (9-tab dashboard)
 ├── data_parser.py            # ORD protobuf parser → pandas DataFrame
 ├── metrics_calculator.py     # All 7 green chemistry metric computations
 ├── visualizations.py         # Plotly charts — yield, heatmap, scatter, bar
 ├── advanced_analytics.py     # ANOVA, expert system, sensitivity analysis
 ├── pdf_generator.py          # PDF and DOCX report generator (ReportLab)
-└──requirements.txt          # All dependencies pinned
+└──requirements.txt           # All dependencies pinned
 ```
 
 ---
@@ -166,7 +166,7 @@ The dashboard opens at `http://localhost:8501`
 | Category | Tools |
 |---|---|
 | Web Framework | Streamlit 1.52.1 |
-| Chemistry |        ord-schema 0.3.99      |
+| Chemistry |ord-schema 0.3.99      |
 | Data | Pandas, NumPy, PyArrow |
 | Visualisation | Plotly 6.5.0, Matplotlib |
 | Statistics | SciPy, Statsmodels |
@@ -175,5 +175,5 @@ The dashboard opens at `http://localhost:8501`
 ---
 
 <div align="center">
-<i>Built with Streamlit · RDKit · Open Reaction Database</i>
+<i>Built with Streamlit · Open Reaction Database</i>
 </div>
