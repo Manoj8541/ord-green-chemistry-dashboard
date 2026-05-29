@@ -8,7 +8,6 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.52.1-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![RDKit](https://img.shields.io/badge/RDKit-2025-blue?style=for-the-badge)](https://rdkit.org)
 [![ORD](https://img.shields.io/badge/Dataset-ORD-4CAF50?style=for-the-badge)](https://open-reaction-database.org/dataset/ord_dataset-3b5db90e337942ea886b8f5bc5e3aa72)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 > **An interactive sustainability analytics platform for evaluating Suzuki-Miyaura cross-coupling reactions from the Open Reaction Database — computing green chemistry metrics, environmental impact and catalyst performance with AI-powered recommendations.**
 
@@ -66,14 +65,17 @@ This dashboard pulls reaction data directly from the **Open Reaction Database (O
 ```
 green-chemistry-dashboard/
 │
+├── data/
+     └── ord_search_results.pb
+├── images/
+     └── logo.png
 ├── app.py                    # Main Streamlit application (9-tab dashboard)
 ├── data_parser.py            # ORD protobuf parser → pandas DataFrame
 ├── metrics_calculator.py     # All 7 green chemistry metric computations
 ├── visualizations.py         # Plotly charts — yield, heatmap, scatter, bar
 ├── advanced_analytics.py     # ANOVA, expert system, sensitivity analysis
 ├── pdf_generator.py          # PDF and DOCX report generator (ReportLab)
-├── requirements.txt          # All dependencies pinned
-└── README.md                 # This file
+└──requirements.txt          # All dependencies pinned
 ```
 
 ---
@@ -121,8 +123,8 @@ ORD Database (protobuf)
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/green-chemistry-dashboard.git
-cd green-chemistry-dashboard
+git clone https://github.com/Manoj8541/ord-green-chemistry-dashboard.git
+cd ord-green-chemistry-dashboard
 ```
 
 ### 2. Install dependencies
@@ -165,19 +167,11 @@ The dashboard opens at `http://localhost:8501`
 | Category | Tools |
 |---|---|
 | Web Framework | Streamlit 1.52.1 |
-| Chemistry | RDKit 2025, ord-schema 0.3.99 |
+| Chemistry |        ord-schema 0.3.99      |
 | Data | Pandas, NumPy, PyArrow |
-| Visualisation | Plotly 6.5.0, Seaborn, Matplotlib |
+| Visualisation | Plotly 6.5.0, Matplotlib |
 | Statistics | SciPy, Statsmodels |
-| Report Generation | ReportLab (PDF), openpyxl (Excel) |
-| Database | SQLAlchemy + psycopg (PostgreSQL) |
-
----
-
-## 👤 Author
-
-**Mohammed Azam Z**  
-MCA Student · PES College of Engineering, Mandya, Karnataka, India
+| Report Generation | ReportLab (PDF), Pandas (Excel), python-docx (docx) |
 
 ---
 
