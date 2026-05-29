@@ -6,7 +6,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.52.1-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
-[![RDKit](https://img.shields.io/badge/RDKit-2025-blue?style=for-the-badge)](https://rdkit.org)
 [![ORD](https://img.shields.io/badge/Dataset-ORD-4CAF50?style=for-the-badge)](https://open-reaction-database.org/dataset/ord_dataset-3b5db90e337942ea886b8f5bc5e3aa72)
 
 > **An interactive sustainability analytics platform for evaluating Suzuki-Miyaura cross-coupling reactions from the Open Reaction Database — computing green chemistry metrics, environmental impact and catalyst performance with AI-powered recommendations.**
