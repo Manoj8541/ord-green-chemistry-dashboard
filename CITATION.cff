@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "A Streamlit Based Dashboard for Green Chemistry Reaction Analysis"
+message: "If you use this software, please cite the paper below."
+authors:
+  - family-names: "H N"
+    given-names: "Manoj"
+  - family-names: "Kumar"
+    given-names: "Hemanth"
+date-released: 2026
+journal: "International Journal for Research in Applied Science & Engineering Technology"
+version: "1.0.0"
+doi: 10.22214/ijraset.2026.82772
+url: "https://doi.org/10.22214/ijraset.2026.82772"
