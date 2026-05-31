@@ -69,6 +69,13 @@ This project contributes:
 - One-click CSV, PDF and DOCX report generation for academic and industrial use
 
 ---
+## 📄 Research Paper
+
+This work is published in a peer-reviewed journal. If you use this project in your research please cite:
+
+> **Manoj H N and Hemanth Kumar**, *"A Streamlit Based Dashboard for Green Chemistry Reaction Analysis"*, International Journal for Research in Applied Science & Engineering Technology (IJRASET), 2026. DOI: [10.22214/ijraset.2026.82772](https://doi.org/10.22214/ijraset.2026.82772)
+
+---
 
 ## 📊 Dashboard Tabs
 
